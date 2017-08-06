@@ -25,6 +25,7 @@ def score(game):
         else:
             frame += 1
             in_first_half = True
+
         if game[i] == 'X' or game[i] == 'x':
             in_first_half = True
             frame += 1
